@@ -1,0 +1,45 @@
+html {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    min-height: 100%;
+    background-color: rgb(229, 200, 241);
+}
+.cell {
+    float: left;
+}
+.hovered-cell {
+    background-color: black !important;
+}
+#buttons {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+button {
+    background-color: rgb(229, 200, 241);
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px 12px;
+    box-shadow: 0 0 8px rgb(134, 134, 134);
+    color: rgb(68, 68, 68);
+}
+button:hover {
+    background-color: rgb(223, 171, 245);
+}
+#container {
+    align-items: center;
+    height: 512px;
+    width: 512px;
+    border: solid 5px rgb(173, 98, 224);
+    margin: 0 auto;
+    border-radius: 8px;
+}
+.clear {
+    clear: both;
+}
